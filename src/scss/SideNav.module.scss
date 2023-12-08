@@ -1,0 +1,88 @@
+.sideNav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  
+
+  .logo {
+    margin: 25px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: white;
+      background: 0;
+      border: 0;
+      margin: 5px 10px 5px 10px;
+      padding: 10px 15px 10px 15px;
+      border-radius: 15px;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.128);
+      }
+
+      span {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .more {
+    position: fixed;
+    bottom: 3px;
+
+    .btn {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: white;
+      background: 0;
+      border: 0;
+      margin: 5px 10px 5px 10px;
+      padding: 10px 15px 10px 15px;
+      border-radius: 15px;
+      width: 100%;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.128);
+      }
+
+      span {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.logout {
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.211);
+  padding: 7px 12px;
+  margin-left: 7px;
+  border: 0;
+  
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424)
+  }
+}
+
