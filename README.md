@@ -7,4 +7,4 @@ TypeScript
 Redux Toolkit
 React Hooks
 Prettier
-CSS-Modules/SCSS
+CSS-Modules/SCSS *Без адаптивной верстки*
